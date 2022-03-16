@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 19px;
+    line-height: 28px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#area-cabecalho{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form{
+    display: grid;
+    width: 100%;
+    max-width: 584px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+input{
+    position: absolute;
+    grid-area: 1/1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    font-size: 16px;
+    padding-left: 47px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.25);
+    left: 5%;
+    top: 10%;
+}
+
+input:hover, input:focus {
+  outline: none;
+}
+
+.img-pesquisa{
+    position: absolute;
+    width: 34px;
+    left: 20%;
+    top: 11%;
+}
+
+.img-pesquisa:hover{
+    outline: none;
+}
+
+.img-logo{
+    position: relative;
+    width: 350px;
+    left: 56%; 
+}
+
+button {
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 155px;
+    padding: 10px 5px;
+    background: #443A3B;
+    border: 1px;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.25);
+    left: 8%;
+    margin: 8px;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid;
+    background: transparent;
+    border-radius: 28px;
+    color: #443A3B;
+}
+
+ .area-menu{
+    position: absolute;
+    width: 600px;
+    left: 32%;
+    top: 130px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr{
+    position: absolute;
+    width: 100%;
+    top: 17%;
+} 

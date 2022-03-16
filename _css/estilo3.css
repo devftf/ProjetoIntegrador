@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 19px;
+    line-height: 28px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#area-cabecalho{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form{
+    display: grid;
+    width: 100%;
+    max-width: 584px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+input{
+    position: absolute;
+    grid-area: 1/1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    font-size: 16px;
+    padding-left: 47px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.25);
+    left: 5%;
+    top: 10%;
+}
+
+input:hover, input:focus {
+  outline: none;
+}
+
+.img-pesquisa{
+    position: absolute;
+    width: 34px;
+    left: 20%;
+    top: 11%;
+}
+
+.img-pesquisa:hover{
+    outline: none;
+}
+
+.img-logo{
+    position: relative;
+    width: 350px;
+    left: 56%; 
+}
+
+button {
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 155px;
+    padding: 10px 5px;
+    background: #443A3B;
+    border: 1px;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.25);
+    left: 8%;
+    margin: 8px;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid;
+    background: transparent;
+    border-radius: 28px;
+    color: #443A3B;
+}
+
+ .area-menu{
+    position: absolute;
+    width: 600px;
+    left: 32%;
+    top: 130px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr{
+    position: absolute;
+    width: 100%;
+    top: 17%;
+} 
+h1{
+    position: relative;
+    left: 10%;
+}
+
+h1, h2{
+    font-family: bitter;
+}
+
+.img-cozinha{
+    position: relative;
+	left: 10%;
+  
+}
+
+.area-fundo{
+    position: absolute;
+    padding: 400px;
+    left: 22%;
+    top: 110%;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    position: absolute;
+    width: 700px;
+    left: 25%;
+    top: 117%;
+    text-align: justify;
+}
+
+#hr-2{
+    position: absolute;
+    left: 22%;
+    top: 245%;
+    padding: 1px;
+    width: 800px;
+}
+
+#area-missao{
+    position: absolute;
+	width: 600px;
+    left: 10%;
+    top: 260%;
+}
+
+#area-visao{
+    position: absolute;
+	width: 520px;
+    left: 50%;
+    top: 280%;
+}
+
+h5{
+    background-color: #443A3B;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+}
+
+.area-valores{
+    position: absolute;
+    width: 100%;
+    padding: 18%;
+    top: 310%;
+    background-color: #ECEBE7;
+}
+
+.img-valores{
+    position: absolute;
+    left: 37%;
+    top: 15%;
+}
+
+.traco1{
+    position: absolute;
+    left: 21%;
+    top: 322%
+}
+
+.valor1 h4{
+    position: absolute;
+    left: 10%;
+    top: 319%; 
+}
+
+.traco2{
+    position: absolute;
+    left: 21%;
+    top: 360%
+}
+
+.valor2 h4{
+    position: absolute;
+    left: 10%;
+    top: 365%; 
+}
+
+.traco3{
+    position: absolute;
+    left: 60%;
+    top: 322%
+}
+
+.valor3 h4{
+    position: absolute;
+    left: 76%;
+    top: 319%; 
+}
+
+.traco4{
+    position: absolute;
+    left: 60%;
+    top: 360%;
+}
+
+.valor4 h4{
+    position: absolute;
+    left: 76%;
+    top: 365%; 
+}
+
+.area-rodape{
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    background-color: #443A3B;   
+    color: #fff;
+    align-items: center;
+    top: 2486px;
+}
+
+.area-redessociais{
+    position: absolute;
+    width: 200px;
+    left: 85%;
+    top: 2520px;
+}
